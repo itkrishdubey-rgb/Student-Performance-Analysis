@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 @st.cache_resource
 def train_model():
-    df = pd.read_csv('student_performance.csv')
+    df = pd.read_csv('/content/drive/MyDrive/Internship-Krish-B 09(IT)/student_performance.csv')
     df['Gender'] = df['Gender'].map({'Female': 1, 'Male': 0})
     df['Tuition'] = df['Tuition'].map({'Yes': 1, 'No': 0})
     df['Extracurricular Activities'] = df['Extracurricular Activities'].map({'Yes': 1, 'No': 0})
