@@ -48,14 +48,3 @@ if st.button('Predict Score 🎯'):
         st.info('👍 Good performance — keep it up!')
     else:
         st.warning('⚠️ At risk — consider more study hours or tuition support.')
-```
-
----
-
-## 📄 File 2 — `requirements.txt`
-This tells Streamlit **which Python libraries to install**. Paste exactly this:
-```
-streamlit
-pandas
-numpy
-scikit-learn
